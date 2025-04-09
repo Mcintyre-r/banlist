@@ -1,10 +1,10 @@
 'use client';
 
 import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+
 
 export default function LootPage() {
-  const router = useRouter();
+
 
   useEffect(() => {
     window.location.href = 'https://docs.google.com/spreadsheets/d/1HckA6lOvUALP2dhsJM0Jvq2ME9p8rrY_9wOHpZXQ-IY/edit?usp=sharing';

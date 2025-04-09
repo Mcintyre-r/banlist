@@ -1,10 +1,10 @@
 'use client';
 
 import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+
 
 export default function MitPage() {
-  const router = useRouter();
+
 
   useEffect(() => {
     window.location.href = 'https://docs.google.com/spreadsheets/d/13rn9CxeB4ovSkxG5-IgpBzXNF3uFQ4RTbrxmi-WMF_o/edit?usp=sharing';
